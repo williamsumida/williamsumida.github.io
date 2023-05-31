@@ -44,6 +44,14 @@
     width: 100%;
     height: auto;
   }
+
+  #favorites {
+    font-size: 1rem;
+  }
+
+  li {
+    margin-left: 2vw;
+  }
   
   #socials {
     font-size: 1rem;
