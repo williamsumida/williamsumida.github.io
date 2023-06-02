@@ -1,0 +1,115 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@1,700&family=Libre+Franklin:ital,wght@0,400;0,900;1,400;1,900&family=Roboto:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+@media (min-width: 900px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+  body {
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-family: sans-serif;
+    color: #292929;
+    width: 44vw;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+
+    position: relative;
+    min-height: 100vh;
+  }
+
+  main {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+    line-height: 1.5rem;
+    font-size: 1.125rem;
+
+    padding-top: 1vh;
+    padding-bottom: 5vh;
+  }
+  
+  .content {
+    margin-top: 1.5vh;
+  }
+
+  h1 {
+    margin-bottom: 2vh;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+
+  h3 {
+    margin-bottom: 0.5vh;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+
+  #navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  #menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1vw;
+  }
+
+  #photo {
+    height: auto;
+    width: 100%;
+    align-self: center;
+}
+
+  #projects {
+    width: parent;
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+
+  #repo{
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+  }
+
+  #favorites {
+  }
+
+  ul {
+    margin-left: 1vw;
+  }
+  
+  #socials {
+    margin-bottom: 1vh;
+  }
+
+  #footer {
+    font-size: 0.8rem;
+    margin-bottom: 5vh;
+    bottom: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+  }
+
+  a {
+    color: #30A2FF;
+  }
+
+}

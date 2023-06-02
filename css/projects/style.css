@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@1,700&family=Libre+Franklin:ital,wght@0,400;0,900;1,400;1,900&family=Roboto:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+@media (min-width: 900px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  #projects {
+    width: parent;
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+
+  #repo{
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+  }
+}
